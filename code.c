@@ -1,9 +1,11 @@
 #include "stdio.h"
 #include "stdlib"
+#include <math.h>
 
 int app_add(int a, int b)
 {
-  return (a+b);
+	printf("hello world\n");
+	return (a+b);
 }
 
 int main(int argc, char *argv[])
